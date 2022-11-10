@@ -53,7 +53,11 @@ inquirer
             message: 'What is the license type:',
             choices:["MIT","No license", "Other"],
         },
-        
+        {
+            type: 'input',
+            name: 'email',
+            message: 'Questions? leave your email... just in case:',
+        },
 
 
 
@@ -77,6 +81,17 @@ const getREADME = (response) => {
     return  `
   
 # 09 ${response.projectName} 🎉
+
+## Table of Contents 
+- [Your task](#Your-Task-)
+- [User Story ](#user-story-)
+- [Acceptance Criteria](#acceptance-criteria-)
+- [Mock Up 📷](#Mock-Up-)
+- [Installation Instructions 📣](#Installation-)
+- [Credits 🧑‍🤝‍🧑](#credits-)
+- [Questions](#questions-)
+- [License ©️](#license-️)
+----
 
 ## Live Site
 [Live Site](${response.liveSite}).
@@ -115,6 +130,11 @@ ${response.installation}
 ## Credits
 
 ${response.credit}
+
+----
+## Questions ❔
+Contact me: ${response.email}
+
 
 ----
 # License

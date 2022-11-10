@@ -2,6 +2,17 @@
   
 # 09 This is Challenge #9 App Readme File 🎉
 
+## Table of Contents 
+- [Your task](#Your-Task-)
+- [User Story ](#user-story-)
+- [Acceptance Criteria](#acceptance-criteria-)
+- [Mock Up 📷](#Mock-Up-)
+- [Installation Instructions 📣](#Installation-)
+- [Credits 🧑‍🤝‍🧑](#credits-)
+- [Questions](#questions-)
+- [License ©️](#license-️)
+----
+
 ## Live Site
 [Live Site](https://github.com/lilianaba/challengew9/blob/main/README.md).
     
@@ -39,6 +50,11 @@ npm i -- to install node, then npm i inquirer to  install inquierer  and the ver
 ## Credits
 
 [Liliana Bazand](https://github.com/lilianaba)
+
+----
+## Questions ❔
+Contact me: lilianabazand@yahoo.com
+
 
 ----
 # License
