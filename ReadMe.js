@@ -39,12 +39,17 @@ inquirer
         {
             type: 'input',
             name: 'installation',
-            message: 'Describe Instalation process:',
+            message: 'Describe Installation process:',
+        },
+        {
+            type: 'input',
+            name: 'credit_name',
+            message: 'Enter your name',
         },
         {
             type: 'input',
             name: 'credit',
-            message: 'List credit user/s:',
+            message: 'Enter you GitHub user name',
         },
          
         {
@@ -129,7 +134,7 @@ ${response.installation}
 -----
 ## Credits
 
-${response.credit}
+[${response.credit_name}](https:github.com/${response.credit})
 
 ----
 ## Questions ❔
